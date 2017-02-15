@@ -9,9 +9,9 @@ using:
 	require_once 'file_cache_in.php';
 
 	// ------------------------------------- //
-	require(dirname(__FILE__).'/config/config.inc.php');
-	Dispatcher::getInstance()->dispatch();
-	// ------------------------------------- //
+        require(dirname(__FILE__).'/config/config.inc.php');
+        Dispatcher::getInstance()->dispatch();
+        // ------------------------------------- //
 
 	require_once 'file_cache_out.php';
 	?>
